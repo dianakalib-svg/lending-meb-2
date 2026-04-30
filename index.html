@@ -1,42 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru" data-theme="light">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ЭКО-МЕБЕЛЬ — кухни и шкафы на заказ в Сыктывкаре | Вариант B</title>
-  <meta name="description" content="Кухни, шкафы и шкафы-купе на заказ в Сыктывкаре по индивидуальным размерам. Бесплатный расчет, замер, проектирование и монтаж." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <meta name="description" content="Вариант B лендинга ЭКО-МЕБЕЛЬ: сначала доверие и примеры работ, затем детали. Кухни, шкафы и корпусная мебель на заказ в Сыктывкаре.">
+
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header id="top" class="header">
+    <div class="container header__inner">
+      <div class="header__logo">
+        <span class="header__brand">ЭКО-МЕБЕЛЬ</span>
+        <span class="header__tagline">Сыктывкар</span>
+      </div>
 
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a href="#top" class="brand" aria-label="ЭКО-МЕБЕЛЬ — на главный экран">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="7" y="10" width="34" height="28" rx="5" stroke="currentColor" stroke-width="2.2"/>
-            <path d="M16 18H32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            <path d="M16 24H27" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            <path d="M16 30H24" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            <path d="M31 15V33" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <span class="brand-text">
-          <strong>ЭКО-МЕБЕЛЬ</strong>
-          <small>Сыктывкар</small>
-        </span>
-      </a>
-
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span></span>
-        <span class="sr-only">Открыть меню</span>
-      </button>
-
-      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+      <nav class="header__nav">
         <a href="#trust">Почему мы</a>
         <a href="#portfolio">Работы</a>
         <a href="#problems">Задачи</a>
@@ -45,271 +25,261 @@
         <a href="#contacts">Контакты</a>
       </nav>
 
-      <div class="header-actions">
-        <a class="header-phone" href="tel:+79041008878">8-904-100-88-78</a>
-        <a class="btn btn-primary btn-sm" href="#lead-form">Получить расчет</a>
+      <div class="header__contacts">
+        <a href="tel:+79041008878" class="header__phone">8-904-100-88-78</a>
+        <a href="#lead-form" class="btn btn-small btn-outline">Получить расчёт</a>
       </div>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Кухни, шкафы и шкафы-купе по индивидуальным размерам</p>
+    <!-- HERO -->
+    <section class="hero hero--b">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <div class="hero__text">
+          <p class="hero__kicker">КУХНИ, ШКАФЫ И ШКАФЫ-КУПЕ ПО ИНДИВИДУАЛЬНЫМ РАЗМЕРАМ</p>
           <h1>Мебель на заказ в Сыктывкаре, которая точно подходит под ваше помещение</h1>
-          <p class="hero-text">Делаем кухни, шкафы и встроенные решения под ниши, короба, технику и сложные планировки. Помогаем использовать пространство с пользой и без типовых ограничений.</p>
+          <p class="hero__subtitle">
+            Делаем кухни, шкафы и встроенные решения под ниши, короба, технику и сложные планировки.
+            Помогаем использовать пространство с пользой и без типовых ограничений.
+          </p>
 
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#lead-form">Получить расчет по вашим размерам</a>
-            <a class="btn btn-secondary" href="#portfolio">Посмотреть работы</a>
+          <div class="hero__actions">
+            <a href="#lead-form" class="btn btn-primary">Получить расчёт по вашим размерам</a>
+            <a href="#portfolio" class="btn btn-secondary">Посмотреть работы</a>
           </div>
 
-          <ul class="hero-badges" role="list">
+          <ul class="hero__benefits">
             <li>Индивидуальные размеры</li>
             <li>Локальная работа в Сыктывкаре</li>
             <li>Замер, проект и монтаж</li>
           </ul>
         </div>
+      </div>
+    </section>
 
-        <div class="hero-visual">
-          <div class="hero-card hero-card-main">
-            <img class="hero-card-photo" src="./assets/1-118.jpg" alt="Современная кухня по индивидуальному проекту" width="900" height="1200" loading="eager" />
-          </div>
-          <div class="hero-card hero-card-side">
-            <p class="mini-label">Быстрый ориентир</p>
-            <ul role="list">
-              <li>кухни под маленькие помещения</li>
-              <li>шкафы в нишу</li>
-              <li>купе до потолка</li>
-              <li>встроенные решения</li>
-            </ul>
-          </div>
+    <!-- QUICK TRUST BLOCK -->
+    <section id="trust" class="section section--light">
+      <div class="container trust">
+        <div class="trust__item">
+          <span class="trust__label">12+ лет</span>
+          <p>опыта на локальном рынке</p>
+        </div>
+        <div class="trust__item">
+          <span class="trust__label">По вашим размерам</span>
+          <p>точная подгонка под помещение</p>
+        </div>
+        <div class="trust__item">
+          <span class="trust__label">г. Сыктывкар</span>
+          <p>ул. Коммунистическая, д. 44</p>
         </div>
       </div>
     </section>
 
-    <section class="trust-strip" id="trust">
-      <div class="container trust-strip-inner">
-        <div>
-          <strong>12+ лет</strong>
-          <span>опыта на локальном рынке</span>
-        </div>
-        <div>
-          <strong>По вашим размерам</strong>
-          <span>точная подгонка под помещение</span>
-        </div>
-        <div>
-          <strong>г.Сыктывкар</strong>
-          <span>ул.Коммунистическая, д.44</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="portfolio">
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Наши выполненные работы</p>
-          <h2>Сначала показываем результат, который получает клиент</h2>
-          <p>В этом варианте лендинга работы и доверие стоят выше по странице, чтобы посетитель быстрее увидел уровень и тип проектов.</p>
-        </div>
+        <h2>Наши выполненные работы</h2>
+        <p class="section__subtitle">
+          Сначала показываем результат, который получает клиент — затем рассказываем детали.
+        </p>
 
-        <div class="portfolio-grid">
+        <div class="cases__grid">
           <article class="case-card">
-            <img class="case-photo" src="./assets/1-126.jpg" alt="Кухня для небольшой квартиры" width="800" height="600" loading="lazy" />
-            <div class="case-body">
-              <h3>Кухня для небольшой квартиры</h3>
-              <p><strong>Задача:</strong> сохранить ощущение пространства и уместить технику с хранением.</p>
-              <p><strong>Решение:</strong> светлая композиция, продуманная эргономика и мебель под размеры помещения.</p>
-            </div>
+            <img src="./assets/1-126.jpg" alt="Кухня для небольшой квартиры">
+            <h3>Кухня для небольшой квартиры</h3>
+            <p><strong>Задача:</strong> сохранить ощущение пространства и уместить технику с хранением.</p>
+            <p><strong>Решение:</strong> светлая композиция, продуманная эргономика и мебель под размеры помещения.</p>
           </article>
 
           <article class="case-card">
-            <img class="case-photo" src="./assets/2-135.jpg" alt="Шкаф-купе в нишу" width="800" height="600" loading="lazy" />
-            <div class="case-body">
-              <h3>Шкаф-купе в нишу</h3>
-              <p><strong>Задача:</strong> встроить вместительный шкаф без потери полезной площади.</p>
-              <p><strong>Решение:</strong> проект по точным размерам ниши с удобным внутренним наполнением.</p>
-            </div>
+            <img src="./assets/2-135.jpg" alt="Шкаф-купе в нишу">
+            <h3>Шкаф-купе в нишу</h3>
+            <p><strong>Задача:</strong> встроить вместительный шкаф без потери полезной площади.</p>
+            <p><strong>Решение:</strong> проект по точным размерам ниши с удобным внутренним наполнением.</p>
           </article>
 
           <article class="case-card">
-            <img class="case-photo" src="./assets/4-91.jpg" alt="Прихожая со встроенным хранением" width="800" height="600" loading="lazy" />
-            <div class="case-body">
-              <h3>Прихожая со встроенным хранением</h3>
-              <p><strong>Задача:</strong> сделать аккуратную и удобную систему хранения на небольшой площади.</p>
-              <p><strong>Решение:</strong> закрытые фасады, компактная конфигурация и визуально легкое решение.</p>
-            </div>
+            <img src="./assets/4-91.jpg" alt="Прихожая со встроенным хранением">
+            <h3>Прихожая со встроенным хранением</h3>
+            <p><strong>Задача:</strong> сделать аккуратную и удобную систему хранения на небольшой площади.</p>
+            <p><strong>Решение:</strong> закрытые фасады, компактная конфигурация и визуально лёгкое решение.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-accent" id="lead-form">
-      <div class="container lead-layout">
-        <div class="lead-copy">
-          <p class="eyebrow eyebrow-light">Быстрый старт</p>
-          <h2>Оставьте заявку и получите расчет мебели по вашим размерам</h2>
-          <p>Эта форма расположена выше по странице, чтобы человек мог обратиться сразу после первого доверия и примеров работ.</p>
-        </div>
+    <!-- EARLY LEAD FORM -->
+    <section id="lead-form" class="section section--accent">
+      <div class="container">
+        <h2>Оставьте заявку и получите расчёт мебели по вашим размерам</h2>
+        <p class="section__subtitle">
+          Эта форма расположена выше по странице, чтобы вы могли обратиться сразу после первого доверия и примеров работ.
+        </p>
 
-        <form class="lead-form" action="#" method="post">
-          <label>
-            <span>Ваше имя</span>
-            <input type="text" name="name" placeholder="Например, Диана" />
-          </label>
-          <label>
-            <span>Телефон</span>
-            <input type="tel" name="phone" placeholder="8-904-100-88-78" required />
-          </label>
-          <label>
-            <span>Что нужно изготовить</span>
-            <textarea name="task" rows="4" placeholder="Кухня, шкаф, шкаф-купе, прихожая или другой проект"></textarea>
-          </label>
-          <button class="btn btn-light" type="submit">Получить расчет</button>
-          <p class="form-note">После заявки свяжемся с вами, уточним размеры и подскажем подходящее решение.</p>
+        <form class="lead-form">
+          <div class="lead-form__row">
+            <input type="text" name="name" placeholder="Ваше имя" aria-label="Ваше имя" />
+            <input type="tel" name="phone" placeholder="Телефон" aria-label="Телефон" required />
+          </div>
+          <textarea id="project-type" name="project_type" placeholder="Что нужно изготовить (кухня, шкаф-купе, прихожая и т.п.)">Что нужно изготовить</textarea>
+
+          <button type="submit" class="btn btn-primary">
+            Получить расчёт
+          </button>
+
+          <p class="lead-form__note">
+            После заявки свяжемся с вами, уточним размеры и подскажем подходящее решение.
+          </p>
         </form>
       </div>
     </section>
 
-    <section class="section" id="problems">
+    <!-- PROBLEMS / TASKS -->
+    <section id="problems" class="section">
       <div class="container">
-        <div class="section-head narrow">
-          <p class="eyebrow">Какие задачи решаем</p>
-          <h2>Подходим тем, у кого типовое решение не работает</h2>
-        </div>
+        <h2>Какие задачи решаем</h2>
+        <p class="section__subtitle">
+          Подходим тем, у кого типовое решение не работает.
+        </p>
 
-        <div class="problem-grid">
-          <article class="problem-card">
+        <div class="products__grid">
+          <div class="product-card">
             <h3>Маленькая кухня</h3>
             <p>Когда важно уместить больше хранения, техники и рабочей поверхности без перегруза пространства.</p>
-          </article>
-          <article class="problem-card">
+          </div>
+          <div class="product-card">
             <h3>Нестандартная планировка</h3>
             <p>Когда есть короба, трубы, углы, выступы или ниши, которые нужно аккуратно встроить в проект.</p>
-          </article>
-          <article class="problem-card">
+          </div>
+          <div class="product-card">
             <h3>Шкаф в нишу</h3>
             <p>Когда нужно сделать встроенное хранение без зазоров и потери полезного места.</p>
-          </article>
-          <article class="problem-card">
+          </div>
+          <div class="product-card">
             <h3>Хранение до потолка</h3>
             <p>Когда важно использовать высоту помещения и получить максимум вместимости.</p>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="products">
+    <!-- WHAT WE MAKE -->
+    <section id="what-we-make" class="section section--light">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Что изготавливаем</p>
-          <h2>Основные направления, с которыми к нам обращаются чаще всего</h2>
-        </div>
+        <h2>Что изготавливаем</h2>
+        <p class="section__subtitle">
+          Основные направления, с которыми к нам обращаются чаще всего.
+        </p>
 
-        <div class="cards-grid products-grid">
-          <article class="info-card">
+        <div class="products__grid">
+          <div class="product-card">
             <h3>Кухни на заказ</h3>
             <p>Под размеры помещения, технику, сценарии готовки и хранения.</p>
-          </article>
-          <article class="info-card">
+          </div>
+          <div class="product-card">
             <h3>Шкафы и шкафы-купе</h3>
             <p>Под спальню, прихожую, нишу, коридор или отдельную зону хранения.</p>
-          </article>
-          <article class="info-card">
+          </div>
+          <div class="product-card">
             <h3>Прихожие</h3>
             <p>Компактные решения, которые помогают держать порядок и не перегружать входную зону.</p>
-          </article>
-          <article class="info-card">
+          </div>
+          <div class="product-card">
             <h3>Встроенная мебель</h3>
             <p>Проекты под сложную геометрию помещения и нестандартные размеры.</p>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="process">
+    <!-- PROCESS -->
+    <section id="process" class="section">
       <div class="container">
-        <div class="section-head narrow">
-          <p class="eyebrow">Как проходит работа</p>
-          <h2>Понятная последовательность без лишней сложности</h2>
-        </div>
+        <h2>Как проходит работа</h2>
+        <p class="section__subtitle">
+          Понятная последовательность без лишней сложности.
+        </p>
 
-        <ol class="steps-grid">
-          <li>
-            <span>1</span>
+        <div class="process__grid">
+          <div class="process__step">
+            <span class="process__number">1</span>
             <h3>Обращение</h3>
             <p>Вы оставляете заявку или отправляете размеры и фото помещения.</p>
-          </li>
-          <li>
-            <span>2</span>
-            <h3>Расчет</h3>
+          </div>
+          <div class="process__step">
+            <span class="process__number">2</span>
+            <h3>Расчёт</h3>
             <p>Обсуждаем задачу, тип мебели и ориентируем по возможному решению.</p>
-          </li>
-          <li>
-            <span>3</span>
+          </div>
+          <div class="process__step">
+            <span class="process__number">3</span>
             <h3>Замер</h3>
             <p>Фиксируем реальные особенности помещения: стены, ниши, технику и выступы.</p>
-          </li>
-          <li>
-            <span>4</span>
+          </div>
+          <div class="process__step">
+            <span class="process__number">4</span>
             <h3>Проект</h3>
             <p>Согласовываем материалы, фасады, наполнение и итоговую конфигурацию.</p>
-          </li>
-          <li>
-            <span>5</span>
+          </div>
+          <div class="process__step">
+            <span class="process__number">5</span>
             <h3>Изготовление</h3>
             <p>После согласования проект запускается в работу.</p>
-          </li>
-          <li>
-            <span>6</span>
+          </div>
+          <div class="process__step">
+            <span class="process__number">6</span>
             <h3>Монтаж</h3>
             <p>Доставка, установка и итоговая проверка результата на месте.</p>
-          </li>
-        </ol>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="materials">
-      <div class="container materials-layout">
-        <div class="section-head left-head">
-          <p class="eyebrow">Материалы и варианты</p>
-          <h2>Подбираем решение под интерьер, задачу и бюджет</h2>
-        </div>
-        <div class="materials-list">
-          <article class="material-item">
+    <!-- MATERIALS -->
+    <section id="materials" class="section section--light">
+      <div class="container">
+        <h2>Материалы и варианты</h2>
+        <p class="section__subtitle">
+          Подбираем решение под интерьер, задачу и бюджет.
+        </p>
+
+        <div class="products__grid">
+          <div class="product-card">
             <h3>Фасады</h3>
             <p>Подбираются под стиль помещения, освещение и желаемый визуальный эффект.</p>
-          </article>
-          <article class="material-item">
+          </div>
+          <div class="product-card">
             <h3>Наполнение</h3>
             <p>Внутреннее устройство мебели продумывается под реальные вещи и ежедневные сценарии использования.</p>
-          </article>
-          <article class="material-item">
+          </div>
+          <div class="product-card">
             <h3>Баланс цены и пользы</h3>
             <p>Ищем конфигурацию, где удобно пользоваться мебелью и комфортно входить в бюджет.</p>
-          </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="reviews">
+    <!-- REVIEWS -->
+    <section id="reviews" class="section">
       <div class="container">
-        <div class="section-head narrow">
-          <p class="eyebrow">Отзывы</p>
-          <h2>Когда клиентам важны точность, удобство и понятная коммуникация</h2>
-        </div>
+        <h2>Отзывы</h2>
+        <p class="section__subtitle">
+          Когда клиентам важны точность, удобство и понятная коммуникация.
+        </p>
 
-        <div class="reviews-grid">
-          <blockquote class="review-card">
+        <div class="reviews">
+          <blockquote class="review">
             <p>«У нас была небольшая кухня и нестандартная стена. Всё продумали так, что пользоваться удобно каждый день.»</p>
             <footer>— Клиент, кухня на заказ</footer>
           </blockquote>
-          <blockquote class="review-card">
+          <blockquote class="review">
             <p>«Шкаф сделали под нишу очень аккуратно. Было важно не терять место, и с этим отлично справились.»</p>
             <footer>— Клиент, шкаф-купе</footer>
           </blockquote>
-          <blockquote class="review-card">
+          <blockquote class="review">
             <p>«Понравилось, что на каждом этапе было понятно, что происходит дальше. Без лишней суеты и непонятных обещаний.»</p>
             <footer>— Клиент, встроенная мебель</footer>
           </blockquote>
@@ -317,69 +287,81 @@
       </div>
     </section>
 
-    <section class="section" id="faq">
-      <div class="container faq-layout">
-        <div class="section-head left-head">
-          <p class="eyebrow">FAQ</p>
-          <h2>Частые вопросы перед обращением</h2>
-        </div>
+    <!-- FAQ -->
+    <section id="faq" class="section section--light">
+      <div class="container">
+        <h2>Частые вопросы перед обращением</h2>
 
-        <div class="faq-list">
-          <details>
-            <summary>Можно ли сначала получить расчет, а потом решать по замеру?</summary>
-            <p>Да, именно поэтому в этом варианте лендинга форма стоит выше. Можно начать с предварительного расчета, а затем перейти к следующему шагу.</p>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary>Можно ли сначала получить расчёт, а потом решать по замеру?</summary>
+            <p>Да, вы можете начать с расчёта по вашим размерам и фото, а уже затем вызывать замерщика.</p>
           </details>
-          <details>
-            <summary>Подойдет ли мебель для сложной планировки?</summary>
-            <p>Да, проект строится под особенности помещения: ниши, выступы, трубы, технику и нестандартные углы.</p>
+          <details class="faq__item">
+            <summary>Подойдёт ли мебель для сложной планировки?</summary>
+            <p>Да, мы как раз работаем с нишами, коробами, углами и нестандартной геометрией помещения.</p>
           </details>
-          <details>
+          <details class="faq__item">
             <summary>Можно ли заказать не только кухню, но и шкаф?</summary>
-            <p>Да, на сайте сделан акцент не только на кухнях, но и на шкафах, шкафах-купе, прихожих и встроенных решениях.</p>
+            <p>Да, мы делаем кухни, шкафы, шкафы-купе, прихожие и другие решения по индивидуальным размерам.</p>
           </details>
-          <details>
+          <details class="faq__item">
             <summary>Как с вами связаться?</summary>
-            <p>Можно оставить форму на сайте, позвонить по номеру 8-904-100-88-78 или написать на email meb-eko@mail.ru.</p>
+            <p>Вы можете позвонить, написать в VK или оставить заявку на сайте — мы ответим в ближайшее рабочее время.</p>
           </details>
         </div>
       </div>
     </section>
 
-    <section class="section final-cta">
-      <div class="container final-cta-box">
-        <div>
-          <p class="eyebrow">Нужен расчет?</p>
-          <h2>Оставьте заявку и начнем с вашей задачи и размеров помещения</h2>
-          <p>Подходит для кухни, шкафа, шкафа-купе, прихожей и других решений по индивидуальным размерам.</p>
-        </div>
-        <a class="btn btn-primary" href="#lead-form">Оставить заявку</a>
+    <!-- FINAL CTA -->
+    <section id="final-cta" class="section">
+      <div class="container">
+        <h2>Нужен расчёт?</h2>
+        <p class="section__subtitle">
+          Оставьте заявку и начнём с вашей задачи и размеров помещения. Подходит для кухни, шкафа, шкафа-купе, прихожей и других решений по индивидуальным размерам.
+        </p>
+
+        <a href="#lead-form" class="btn btn-primary">Оставить заявку</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer" id="contacts">
-    <div class="container footer-grid">
-      <div>
-        <h2>Контакты</h2>
-        <p>ЭКО-МЕБЕЛЬ — кухни, шкафы и корпусная мебель на заказ в Сыктывкаре.</p>
+  <footer id="contacts" class="footer">
+    <div class="container footer__inner">
+      <div class="footer__info">
+        <h3>ЭКО-МЕБЕЛЬ</h3>
+        <p>Кухни, шкафы и корпусная мебель на заказ в Сыктывкаре.</p>
       </div>
-      <div>
-        <h3>Связь</h3>
-        <ul role="list" class="footer-list">
-          <li><a href="tel:+79041008878">8-904-100-88-78</a></li>
-          <li><a href="https://vk.com/ekomebel1" target="_blank" rel="noopener noreferrer">Группа ВКонтакте</a></li>
-          <li><a href="mailto:meb-eko@mail.ru">meb-eko@mail.ru</a></li>
-        </ul>
+
+      <div class="footer__contacts">
+        <h4>Связь</h4>
+        <a href="tel:+79041008878">8-904-100-88-78</a>
+        <a href="https://vk.com/ekomebel1" target="_blank" rel="noopener noreferrer">Группа ВКонтакте</a>
+        <a href="mailto:meb-eko@mail.ru">meb-eko@mail.ru</a>
       </div>
-      <div>
-        <h3>Адрес</h3>
-        <ul role="list" class="footer-list">
-          <li>г.Сыктывкар, ул.Коммунистическая, д.44</li>
-        </ul>
+
+      <div class="footer__contacts">
+        <h4>Адрес</h4>
+        <p>г. Сыктывкар, ул. Коммунистическая, д. 44</p>
+      </div>
+
+      <div class="footer__bottom">
+        <a href="#top">Наверх</a>
+        <span>© ЭКО-МЕБЕЛЬ, Сыктывкар</span>
       </div>
     </div>
   </footer>
 
-  <script src="./script.js" defer></script>
+  <script>
+    function setProjectType(value) {
+      var field = document.getElementById('project-type');
+      if (field) {
+        field.value = value;
+        document.getElementById('lead-form').scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+  <script src="./script.js"></script>
 </body>
 </html>
